@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap" rel="stylesheet');
+
+
+*{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style: none;
+}
+
+nav{
+    background-color: white;
+}
+nav img{
+    height: 26px;
+   width: 26px;
+    margin: 10px;
+   margin-left: 200px;
+}
+nav  li{
+    list-style: none;
+    margin: 0 0.08%;
+    display: inline-flex;
+    font-size: 150%;
+    
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: 10px;
+}
+strong{
+    font-size: 50px;
+    font-weight: 900;
+}
+#home img{
+    height:340px;
+    width: 439px;
+}
+#home button{
+    padding: 1% 4%;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #ffffff;
+    border: none;
+    font-weight: 600;
+}
+#home{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3.3% 2% 3%;
+}
+
+.white{
+    color: gray;
+    margin:0px 70px;
+    font-weight: 600%;
+    font-size: 140%;
+    
+}
+.white li:hover{
+    color:#000000;
+}
+
+#navbar>ul{
+    display: flex;
+    justify-content: flex-start;
+    line-height: 15px;
+    align-items: center;
+    font-size: 160%;
+    display: space-between;
+}
+#home>div{
+    display: flex;
+    padding: 45px 0;
+}
+
+#detail,#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#footer>section>section {
+    display: flex;
+    justify-content: flex-start;
+    padding-left:100px;
+}
+#footer>section:last-child{
+    display: flex;
+    padding: 10px 0px 10px 200px;
+    
+}
+#footer>section:last-child *{
+    padding-right: 50px;
+}
+#footer>section:first-child{
+    padding:30px;
+}
+#language{
+    padding-left: 170px;
+}
+
+
+
+#back{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 6px 8px;
+}
+.light{
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.8);
+}
+.and{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+.unit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+}
+
+
+  #last{
+      background-color: black;
+      color: white;
+      font-size: 160%;
+  }
+  #language p{
+      font-size: 150%;
+  }
